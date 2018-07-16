@@ -29,7 +29,14 @@ body {
 
 .ubuntu-fonts {
   font-family: "Ubuntu", sans-serif; }
-
+.left{
+  width:48%;
+  float:left;
+}
+.right{
+  width:48%;
+  float:right;
+}
 h1,
 h2,
 h3,
@@ -137,7 +144,11 @@ a {
     transform: rotate(360deg); } }
 ul,
 ol {
-  margin: 0; }
+  margin-top:-20px;
+  margin-bottom:-10px;
+  margin-left:10px;
+  padding:none;
+font-size:x-small; }
   ul li,
   ol li {
     list-style: none; }
