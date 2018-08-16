@@ -37,6 +37,12 @@ body {
   width:48%;
   float:right;
 }
+.profile-thumbnail{
+  width:90px;
+  border:1px solid #0000ff;
+  float:left;
+  margin-right: 8px;
+}
 h1,
 h2,
 h3,
@@ -401,8 +407,14 @@ img {
       z-index:200;
       color:white;
       text-align: center;
-      margin-top:250px;
+      margin-top:200px;
       width:100%;
+    }
+    .hero-area .hero-text h1{
+      font-size:2em;
+    }
+    .hero-area .hero-text h2{
+      font-size:1.5em;
     }
     .hero-area .hero-text h1, h2{
       color:white
